@@ -1,0 +1,7 @@
+platform:ios,'8.2'
+
+target 'FSContactSample' do
+
+  pod 'FSContact', :path => '../'
+
+end

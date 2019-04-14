@@ -17,6 +17,11 @@ Pod::Spec.new do |s|
   s.ios.vendored_libraries = 'sdks/FSContact/libs/libFSContact.a'
   s.ios.deployment_target = '8.2'
   
+    s.frameworks = 'Contacts','AddressBook','ContactsUI','AddressBookUI'
+    
+    #,'AudioToolbox','AVFoundation'
+
+  
   s.dependency   'FSJZKit'
 
 end
