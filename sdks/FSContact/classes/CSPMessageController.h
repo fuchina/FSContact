@@ -10,4 +10,6 @@
 
 @interface CSPMessageController : FSBaseController
 
+@property (nonatomic,strong) NSArray    *list;
+
 @end
